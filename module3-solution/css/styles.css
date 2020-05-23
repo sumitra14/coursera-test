@@ -1,0 +1,96 @@
+header{
+	margin: 0;
+}
+.container{
+	margin-top: 20px;
+	width:100%;
+	padding: 0;	
+}
+
+.navbar-brand{
+font-family: cursive;
+font-size: 2em;
+}
+#navbarSupportedContent{
+}
+hr{
+	width: 100%;
+	color: black;
+
+}
+
+#nav-list{
+	text-align: center;
+	background-color: #FAEBD7;
+	padding: 0;
+	margin-top: 10px;
+	width:100%;
+}
+#nav-list a:hover, #nav-list a:focus{
+  background: #E7E7E7;
+}
+#main-content{
+	padding-top: 20px;
+	margin-top: 30px;
+	border-top: 1px solid black;
+
+
+}
+
+
+h1{
+	text-transform: uppercase;
+	font-family: cursive;
+	text-align: center;
+	font-size: 2em;
+	position: relative;
+
+}
+section{
+    border:	1px solid black;
+	background-color: #5E9EA0;
+	width: 100%;
+	height: 100%;
+	font-family: cursive;
+	color: black;
+}
+p{
+	padding: 10px;      /*for spacing b/w the box border and the inside text*/
+	margin: 0;    
+}
+section>div{
+	text-align: center;
+	margin: 10px;
+	color: black;
+	font-weight: bold;
+	font-size: 125%;
+}
+.col-lg-4 {
+    padding: 10px;    /*padding is for spacing b/w the boxes as section represent the box and inside content and padding is just one layer 
+                            outside the section box*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+@media (min-width: 992px) {
+	.col-lg-4 {
+			float: left;
+		}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+  	       width: 50%;
+  	       float: left;
+		
+		}
+		.col-md-12 {
+			width: 100%;
+			float: left;
+		}
+}
+@media (max-width: 767px) {
+  .col-12 {
+			float: left;
+			width: 100%;
+		}
+
+}
